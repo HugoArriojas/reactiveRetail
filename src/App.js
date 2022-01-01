@@ -5,7 +5,7 @@ import HeaderFooter from './components/HeaderFooter';
 import ProductContainers from './components/ProductContainers';
 import CreditSocials from './components/CreditSocials';
 
-function App() {
+function App(props) {
   // Holding selected category
   const [categoryInput, setCategoryInput] = useState("");
   // Holding current currency conversion
@@ -25,6 +25,7 @@ function App() {
     <div className="App">
       <HeaderFooter/>
       <main>
+
         <SideNav
           handleCurrency = {handleCurrency}
           handleCategory = {handleCategory}

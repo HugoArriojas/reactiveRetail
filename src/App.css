@@ -488,6 +488,7 @@ button {
   -ms-overflow-style: none;
 }
 
+
 /* Hiding scrollbar for firefox */
 .itemDesc::-webkit-scrollbar {
   display: none;
